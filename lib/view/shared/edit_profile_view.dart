@@ -73,7 +73,7 @@ class EditProfileView extends StatelessWidget {
               ),
               const Label('School'),
               DropdownButtonFormField<String>(
-                value: 'School of Management',
+                initialValue: 'School of Management',
                 items: const [
                   'School of Management',
                   'School of Science',
